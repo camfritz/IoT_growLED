@@ -1,0 +1,27 @@
+<html>
+<head>
+	<link rel="stylesheet" href="styles.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="scripts.js"></script>
+</head>
+
+<body>
+	<div class="tab-bar">
+		<button class="tab" onclick="openTab(event, 'Control')">Control</button>
+		<button class="tab" onclick="openTab(event, 'SysStat')">System Status</button>
+	</div>
+
+	<div id="Control" class="tabcontent">
+		<h1>Control Panel</h3>
+			<p>Dimmer</p>
+			<p>Power On/Off</p>
+			<button id="PowerSw" onclick="callPower(event)">On</button>
+		</div>
+
+		<div id="SysStat" class="tabcontent">
+			<h1>System Status</h3>
+				<p>Temp: </p> 
+			</div>
+
+		</body>
+		</html>

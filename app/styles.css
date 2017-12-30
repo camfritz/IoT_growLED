@@ -1,0 +1,37 @@
+.tab-bar {
+	overflow: hidden;
+	border: 1px solid #ccc;
+	background-color: #f1f1f1;
+}
+
+.tab-bar button {
+	background-color: inherit;
+	float: left;
+	border-color: black;
+	border: 5px 5px 5px 5px;
+	outline: none;
+	cursor: pointer;
+	padding: 14px 16px;
+	transition: 0.3s;
+}
+
+.tab-bar button:hover {
+	background-color: #89e3ff
+}
+
+.tab-bar button.active {
+	background-color: #89e3ff
+} 
+
+h1 {
+	color: blue;
+}
+
+.tabcontent {
+	border: 1px solid #ccc
+}
+
+#PowerSw {
+	border: 2px solid black;
+	font-size: 20px;
+}
